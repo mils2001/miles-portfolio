@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../portfolio/casey-horner-9vf1uj6i6Ww-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+nav{
+    background-color:gold;
+    color: #fff;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: #000;
+}
+nav ul:hover{
+    margin: 0 10px;
+    background: color #000;;
+}
+
+
+section{
+    padding: 30px 120px;
+    border: 10px;
+    border-color: #000;
+    border-width: 10%;
+    border-style: groove;
+    border-radius: 10px;
+}
+#home{
+    text-align: left;
+    padding-left: 10%;
+    border-style: groove;
+    border-radius: 10%;
+    border-width: 20%;
+    margin-top: 5px;
+    }
+button{
+background:gold;
+color: white;
+padding: 5px 10px;
+border-radius: 5px;
+margin-left: 15%;
+gap: 10%;
+margin-top: 0%;
+}
+button:hover{
+    background-color: aqua;
+}
+#about{
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+display: flow-root;
+margin-bottom: -10px;
+}
+#about p{
+    float: right;
+    width: 50%;
+}
+
+#about h2{
+    text-decoration-color: gold;
+}
+
+#skills{
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+#skills ul{
+    list-style-type: disc;
+    padding: 0;
+    margin-left: 20%;
+}
+
+#experience{
+    text-align: center;
+    padding-left: 10%;
+    
+}
+#experience h2{
+    text-decoration-color: gold;
+}
+#contact{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-width: 15%;
+}
+#contact h2{
+    text-decoration-color: gold;
+}
+img{
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 5px;
+    gap: 10%;
+    }
+form{
+      padding-left: 20%;
+      margin-left: 10%;
+      row-gap: 10px;
+    }
+footer{
+    background-color:gold;
+    align-items: flex-end;
+    padding: 10px 120px;
+    border-radius: 10%;
+}
+footer p{
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
